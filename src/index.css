@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Outfit;
+}
+
+.container {
+    @apply p-[.875rem] m-auto w-full sm:w-[580px] md:w-[730px] lg:w-[950px] xl:w-[1100px] 2xl:w-[1400px];
+}
+
+img {
+    max-width: 100%;
+}
