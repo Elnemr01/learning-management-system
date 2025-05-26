@@ -7,7 +7,7 @@ export const systemContext=createContext();
 
 import React from 'react'
 
-const SysContectProvider = ({children}) => {
+const SysContextProvider = ({children}) => {
     let value={};
     return (
         <systemContext.Provider value={value}>
@@ -16,4 +16,4 @@ const SysContectProvider = ({children}) => {
     )
 }
 
-export default SysContectProvider
+export default SysContextProvider

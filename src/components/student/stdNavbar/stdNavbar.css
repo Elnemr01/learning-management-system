@@ -24,7 +24,7 @@ header .links > li {
 
 }
 
-header .links > li button {
+header .links > li button.createAcc {
     text-transform: capitalize;
     background-color: blue;
     color: white;
