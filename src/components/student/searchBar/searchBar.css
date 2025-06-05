@@ -1,0 +1,49 @@
+.searchBar form {
+    display: flex;
+    gap: 5px;
+    padding: 6px;
+    max-width: 60%;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (width <=667px) {
+    .searchBar form {
+        max-width: 100%;
+    }
+}
+
+.searchBar form div {
+    display: flex;
+    gap: 5px;
+    flex: 1;
+}
+
+.searchBar form input {
+    padding: 7px;
+    outline: none;
+    flex: 1;
+}
+
+.searchBar form input::placeholder {
+    text-transform: capitalize;
+}
+
+.searchBar form button {
+    text-transform: capitalize;
+    background-color: rgb(37 99 235);
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (width <=667px) {
+    .searchBar form button {
+        padding: 8px 15px;
+    }
+}

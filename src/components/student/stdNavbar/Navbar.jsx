@@ -19,17 +19,28 @@ const Navbar = () => {
                 </div>
                 <ul className="links">
                     <ul className="subLinks">
+                        {user &&
+                        <>
                         <li><button>become educator</button></li>
                         <li>|</li>
                         <li><Link to={'/enrollments'}>my enrollments</Link></li>
-                        {user ? <li><UserButton/></li> : <li><button onClick={()=> openSignIn()} className='createAcc'>create account</button></li>}
+                        </> 
+                        }
+                        {user ? <UserButton/> : <li><button onClick={()=> openSignIn()} className='createAcc'>create account</button></li>}
                     </ul>
                 </ul>
                 {/* for mobile screen */}
                 <ul className="mobLinks">
+                    {user &&
+                    <>
                     <li><button>become educator</button></li>
                     <li>|</li>
-                    <li><Link to={'/enrollments'}> <img src={assets.user_icon} alt="check connection" loading='lazy' /> </Link></li>
+                    <li><Link to={'/enrollments'}>my enrollments</Link></li>
+                    </>
+                    }
+                    {
+                        user ? <UserButton/> :<img src={assets.user_icon} alt="check connection" loading='lazy' onClick={()=> openSignIn()}/>
+                    }
                 </ul>
             </div>
         </header>

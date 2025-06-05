@@ -1,0 +1,55 @@
+.testmonialsCard {
+    border: 1px solid #6b72804d;;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.testmonialsCard .info {
+    display: flex;
+    padding: 20px;
+    background-color: #6b72801a;;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.testmonialsCard .info .image {
+    max-width: 60px;
+}
+
+.testmonialsCard .info .personal {
+    
+}
+
+.testmonialsCard .info .personal h2 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.testmonialsCard .info .personal p {
+    color: gray;
+    font-size: 13px;
+}
+
+.testmonialsCard .ratings {
+
+}
+
+.testmonialsCard .ratings img {
+
+}
+
+.testmonialsCard .feedBack{
+    color: rgb(107 114 128);
+    font-size: .875rem;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+.testmonialsCard > a {
+    display: inline-block;
+    padding: 0px 20px 20px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: rgb(59 130 246);
+}
+

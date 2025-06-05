@@ -1,10 +1,14 @@
 import React from 'react'
-import Navbar from '../../components/student/stdNavbar/Navbar'
+import Hero from '../../components/student/hero/Hero'
+import Companies from '../../components/student/companies/Companies'
+import Testmonials from '../../components/student/testmonials/Testmonials'
 
 const Home = () => {
   return (
     <div className='Home'>
-      Home
+      <Hero/>
+      <Companies/>
+      <Testmonials/>
     </div>
   )
 }

@@ -1,0 +1,99 @@
+footer {
+    background-color: rgb(17 24 39);
+    color: #fffc;
+    margin-top: 100px;
+}
+
+footer .copyRight {
+    text-align: center;
+    padding: 24px 0;
+    font-size: .875rem;
+}
+
+footer .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+footer .tempDiv {
+    padding: 30px 0;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom: 1px solid #ffffff4d;
+}
+
+@media (width<=667px) {
+    footer .tempDiv {
+        grid-template-columns: auto;
+        gap: 2.5rem;
+    }
+}
+
+/* --------info------ */
+
+footer .container .info .logo {
+    max-width: 90px;
+}
+
+
+footer .container .info p,
+footer .container .subscribe p {
+    padding: 10px 0;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* --------pages------ */
+
+footer .container .pages h1,
+footer .container .subscribe h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+
+footer .container .pages ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+/* --------subscribe------ */
+
+footer .container .subscribe form {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+
+footer .container .subscribe form input {
+    background-color: rgb(31 41 55);
+    border-radius: 5px;
+    border: 1px solid rgb(107 114 128 );
+    padding: 8px 7px;
+    flex: 1;
+}
+
+footer .container .subscribe form input::placeholder {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+
+footer .container .subscribe form button {
+    color: white;
+    background-color: rgb(37 99 235);
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+

@@ -1,0 +1,30 @@
+.companies {
+    margin: 40px 0;
+}
+
+.companies .container {
+
+}
+
+.companies p {
+    text-align: center;
+    padding: 10px;
+    color: rgb(128 128 128);
+}
+
+.companies ul {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.companies ul li {
+    
+}
+
+.companies ul li img {
+    
+}

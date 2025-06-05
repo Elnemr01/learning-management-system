@@ -12,6 +12,7 @@ import AddCourse from './pages/educator/AddCourse'
 import MyCourses from './pages/educator/MyCourses'
 import StudentEnrolled from './pages/educator/StudentEnrolled'
 import Navbar from './components/student/stdNavbar/Navbar'
+import Footer from './components/student/stdFooter/Footer'
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
   return (
     <div className="App">
       { !isEducator && <Navbar/>}
-      <div className="container">
+      {/* <div className="container"> */}
         <Routes>
           {/* for student */}
           <Route path='/' element={<Home/>}/>
@@ -39,7 +40,8 @@ function App() {
             <Route path='student-enroll' element={<StudentEnrolled />} />
           </Route>
         </Routes>
-      </div>
+      {/* </div> */}
+      <Footer/>
     </div>
   )
 }
