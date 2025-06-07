@@ -1,14 +1,24 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './searchBar.css'
 import { assets } from '../../../assets/assets';
+import { systemContext } from '../../../context/systemContext';
+import { useNavigate } from 'react-router-dom';
 
 const SearchBar = () => {
-    let [searchVal,setSearchVal]=useState('');
+    let {searchVal,setSearchVal,setshowSearchVal,setPrevious_searchVal}=useContext(systemContext);
+    let navigate=useNavigate();
 
 
 
     let handleSubmitForm =(ev)=> {
         ev.preventDefault();
+    }
+
+
+    let goToCoursrList =()=> {
+        setPrevious_searchVal(searchVal);
+        setshowSearchVal(searchVal==='' ? false : true);
+        navigate('/course-list')
     }
 
     return (
@@ -19,7 +29,7 @@ const SearchBar = () => {
                     <input type="text" value={searchVal} onChange={(ev)=> setSearchVal(ev.target.value)}
                     placeholder='search for courses'/>
                 </div>
-                <button type='submit'>search</button>
+                <button type='submit' onClick={()=> goToCoursrList()}>search</button>
             </form>
         </div>
     )

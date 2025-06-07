@@ -31,11 +31,16 @@
 }
 
 .testmonialsCard .ratings {
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    gap: 3px;
 }
 
 .testmonialsCard .ratings img {
-
+    min-height: 1.25rem;
 }
 
 .testmonialsCard .feedBack{

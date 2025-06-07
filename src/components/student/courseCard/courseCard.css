@@ -1,0 +1,50 @@
+.courseCard {
+    border: 1px solid #6b72804d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.courseCard .image {
+    overflow: hidden;
+}
+
+.courseCard .info {
+    padding: 10px;
+}
+
+.courseCard h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.courseCard .ratings {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.courseCard .ratings ul {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.courseCard .ratings li {
+
+}
+
+.courseCard .ratings li img {
+
+}
+
+.courseCard .ratings .num {
+    color: gray;
+    font-size: 1rem;
+}
+
+.courseCard .price {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(31 41 55);
+}

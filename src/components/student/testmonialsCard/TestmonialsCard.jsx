@@ -1,6 +1,7 @@
 import React from 'react'
 import './card.css'
 import { Link } from 'react-router-dom'
+import { assets } from '../../../assets/assets'
 
 const TestmonialsCard = ({person}) => {
     return (
@@ -15,7 +16,11 @@ const TestmonialsCard = ({person}) => {
                 </div>
             </div>
             <ul className="ratings">
-                
+                {
+                    [...Array(5)].map((_,i)=>
+                        <li key={i}><img src={i<Math.floor(person.rating) ? assets.star : assets.star_blank} alt="check connection" loading='lazy'/></li>
+                    )
+                }
             </ul>
             <p className="feedBack">{person.feedback}</p>
             <Link to={'/'}>Read more</Link>

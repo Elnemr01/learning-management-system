@@ -15,7 +15,7 @@ const Navbar = () => {
         <header className={`${!isCourseList? 'bg-headerBackColor': 'bg-white'}`}>
             <div className='container'>
                 <div className="logo">
-                    <img src={assets.logo} alt="check connection" loading='lazy'/>
+                    <Link to={'/'}><img src={assets.logo} alt="check connection" loading='lazy'/></Link>
                 </div>
                 <ul className="links">
                     <ul className="subLinks">

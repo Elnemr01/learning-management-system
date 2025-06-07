@@ -1,0 +1,56 @@
+.callAction .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.callAction h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(31 41 55);
+}
+
+@media (width <=776px) {
+    .callAction h1 {
+        font-size: 19px;
+    }
+}
+
+.callAction p {
+    font-size: .875rem;
+    color: gray;
+    text-align: center;
+}
+
+.callAction .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: .875rem;
+}
+
+.callAction .links .started {
+    padding: 11px 20px;
+    background-color: rgb(37 99 235);
+    color: white;
+    border-radius: 10px;
+}
+
+.callAction .links .more {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.callAction .links .more span {
+    
+}
+
+.callAction .links .more  img {
+    
+}
+

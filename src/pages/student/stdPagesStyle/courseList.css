@@ -1,0 +1,68 @@
+.courseList {
+
+}
+
+.courseList .search {
+    display: flex;
+    gap: 150px;
+}
+
+@media (width >667px) {
+    .courseList .search {
+        align-items: center;
+    }
+}
+
+@media (width <=667px) {
+    .courseList .search {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.courseList .search .searchBar {
+    flex: 1;
+}
+
+.courseList .search .searchBar form {
+    max-width: 100%;
+}
+
+.courseList .search .text {
+    text-transform: capitalize;
+}
+
+.courseList .search .text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.courseList .search .text p span {
+    color: rgb(37 99 235);
+    cursor: pointer;
+}
+
+.courseList .valueDiv {
+    margin: 30px 0;
+}
+
+.courseList .valueDiv .value {
+    max-width: fit-content;
+    border: 1px solid #e5e7eb;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: (75 85 99);
+}
+
+.courseList .valueDiv .value img {
+    cursor: pointer;
+}
+
+.courseList .allCourses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 1.25rem;
+    margin-top: 50px;
+}
