@@ -19,8 +19,12 @@
 
 .courseCard .ratings {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     align-items: center;
+}
+
+.courseCard .ratings p {
+    font-size: 1rem;
 }
 
 .courseCard .ratings ul {
@@ -31,11 +35,11 @@
 }
 
 .courseCard .ratings li {
-
+    height: 1rem;
 }
 
 .courseCard .ratings li img {
-
+    height: 100%;
 }
 
 .courseCard .ratings .num {

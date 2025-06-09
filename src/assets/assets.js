@@ -280,6 +280,7 @@ export const dummyCourses = [
                 "_id": "6773e37360cb0ab974342314"
             }
         ],
+        "rating": 5,
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T04:47:44.701Z",
         "__v": 4,
@@ -352,6 +353,7 @@ export const dummyCourses = [
                 "_id": "6776369244daad0f313d81a9"
             }
         ],
+        "rating": 5,
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:47:54.446Z",
         "__v": 3,
@@ -418,6 +420,7 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
+        "rating":4,
         "createdAt": "2024-12-27T11:30:00.000Z",
         "updatedAt": "2024-12-31T04:14:49.773Z",
         "__v": 2,
@@ -484,6 +487,7 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
+        "rating": 4,
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2024-12-31T05:31:27.290Z",
         "__v": 2,
@@ -549,6 +553,7 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
+        "rating": 4,
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2024-12-31T05:32:55.357Z",
         "__v": 1,
@@ -622,6 +627,7 @@ export const dummyCourses = [
                 "_id": "6773acf160cb0ab974342248"
             }
         ],
+        "rating": 5,
         "createdAt": "2024-12-27T10:00:00.000Z",
         "updatedAt": "2024-12-31T09:57:48.992Z",
         "__v": 3,
@@ -687,6 +693,7 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
+        "rating": 5,
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:53:59.753Z",
         "__v": 1,
@@ -752,6 +759,7 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
+        "rating": 4,
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,

@@ -1,0 +1,87 @@
+.rightPart {
+    
+}
+
+.rightPart .image {
+    
+}
+
+.rightPart .data {
+    padding: 0px .875rem;
+}
+
+
+/* ----------list of all prices---------- */
+
+.rightPart .allPrices {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    gap: 1rem;
+    color: gray;
+}
+
+.rightPart .allPrices li {
+    
+}
+
+.rightPart .allPrices li:first-child {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+
+.rightPart .allPrices li:nth-child(2) {
+    text-decoration: line-through;
+}
+
+/* ----------list of course time---------- */
+
+.rightPart .courseTime {
+    display: flex;
+    gap: 15px;
+    color: gray;
+    align-items: center;
+    margin: 16px 0;
+    font-size: .875rem;
+}
+
+.rightPart .courseTime li:first-child,
+.rightPart .courseTime li:nth-child(3),
+.rightPart .courseTime li:last-child {
+    display: flex;
+    gap: 2px;
+}
+
+.rightPart .data > button {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(37 99 235);
+    border-radius: 5px;
+    margin: .875rem 0 1.25rem;
+}
+
+/* ----------about the course---------- */
+
+.rightPart .about {
+}
+
+.rightPart .about h2 {
+    color: rgb(31 41 55);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.rightPart .about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}

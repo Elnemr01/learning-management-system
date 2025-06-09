@@ -16,12 +16,12 @@ const CourseCard = ({course}) => {
             <div className="info">
                 <h2 className="courseName">{course.courseTitle}</h2>
                 <div className="ratings">
-                    <p>5</p>
+                    <p>{course.rating}</p>
                     <ul className="stars">
                         {
                             [...Array(5)].map((_,i)=>
                             <li key={i}>
-                                <img src={ assets.star}
+                                <img src={i < course.rating ? assets.star : assets.star_blank}
                                 alt="check connection" loading='lazy'/>
                             </li>)
                         }

@@ -1,0 +1,103 @@
+.chapter {
+    overflow: hidden;
+    position: relative;
+}
+
+.chapter .shownPart {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    user-select: none;
+}
+
+@media (width <=540px) {
+    .chapter .shownPart {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media (width >540px) {
+    .chapter .shownPart {
+        align-items: center;
+    }
+}
+
+.chapter .shownPart .name,
+.chapter .lectures .lecture .lecName {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.chapter .shownPart .name img {
+    
+}
+
+.chapter .shownPart .name h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(31 41 55);
+}
+
+.chapter .shownPart .duration {
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.chapter .shownPart .duration p {
+    
+}
+
+/* ----------lectures part---------- */
+
+.chapter .lectures {
+    transition: .3s;
+    border: 1px solid #e5e7eb;;
+    border-top: none;
+}
+
+.chapter .lectures .lecture {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 10px 25px;
+    color: rgb(31 41 55);
+}
+
+@media (width <=540px) {
+    .chapter .lectures .lecture {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media (width >540px) {
+    .chapter .lectures .lecture {
+        align-items: center;
+    }
+}
+
+.chapter .lectures .lecture .lecName {
+    cursor: pointer;
+}
+
+.chapter .lectures .lecture .lecName img {
+    transition: .3s;
+}
+
+.chapter .lectures .lecture .lecName p {
+    
+}
+
+.chapter .lectures .lecture .duration {
+    
+}
+
+.chapter .lectures .lecture .time {
+    padding-left: 28px;
+}
