@@ -1,0 +1,20 @@
+.enrollments {
+    min-height: 70vh;
+    margin-top: 20px;
+}
+
+.enrollments h2 {
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.enrollments table {
+    width: 100%;
+}
+
+.enrollments table thead {
+    border: 1px solid gray;
+    padding: 10px;
+}

@@ -27,7 +27,6 @@ function App() {
           {/* for student */}
           <Route path='/' element={<Home/>}/>
           <Route path='/course-list' element={<CourseList />}/>
-          {/* <Route path='/course/:input' element={<CourseList />}/> */}
           <Route path='/course/:id' element={<CouresDetails />}/>
           <Route path='/enrollments' element={<MyEnrollments/>}/>
           <Route path='/player/:courseId' element={<Player />}/>
