@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { enrollmentsSlice } from "./EnrollmenrsArrSlice";
+import enrollmentsSlice from "./EnrollmenrsArrSlice";
 
 
 
 export let Store=configureStore({
     reducer : {
-        enrolledCourses :enrollmentsSlice,
+        enrolledCourses : enrollmentsSlice,
     }
 })

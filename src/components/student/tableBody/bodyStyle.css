@@ -1,0 +1,11 @@
+    .tableBody tr:hover {
+    background: #f5faff;
+    transition: 0.2s ease-in-out;
+    }
+
+    .empty-msg {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #777;
+    }

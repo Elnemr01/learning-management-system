@@ -21,8 +21,6 @@ const Navbar = () => {
                     <ul className="subLinks">
                         {user &&
                         <>
-                        <li><button>become educator</button></li>
-                        <li>|</li>
                         <li><Link to={'/enrollments'}>my enrollments</Link></li>
                         </> 
                         }
@@ -33,8 +31,6 @@ const Navbar = () => {
                 <ul className="mobLinks">
                     {user &&
                     <>
-                    <li><button>become educator</button></li>
-                    <li>|</li>
                     <li><Link to={'/enrollments'}>my enrollments</Link></li>
                     </>
                     }

@@ -5,12 +5,13 @@ export let enrollmentsSlice=createSlice({
     name: "enrollmentsSlice",
     reducers: {
         addCourse: (state,action)=> {
-            
+            state.push(action.payload);
+            return state;
         }
     }
 })
 
 
 
-export let {}=enrollmentsSlice.actions;
+export let {addCourse}=enrollmentsSlice.actions;
 export default enrollmentsSlice.reducer;

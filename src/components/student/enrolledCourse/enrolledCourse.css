@@ -1,0 +1,37 @@
+    .enrolledCourse td {
+    padding: 14px 18px;
+    font-size: 15px;
+    color: #444;
+    vertical-align: middle;
+    }
+
+    .course-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    }
+
+    .course-thumb {
+    width: 50px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 6px;
+    }
+
+    .status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+    }
+
+    .status.active {
+    background: #d4edda;
+    color: #155724;
+    }
+
+    .status.pending {
+    background: #f8d7da;
+    color: #721c24;
+    }

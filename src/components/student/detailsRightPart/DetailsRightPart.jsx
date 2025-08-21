@@ -6,11 +6,13 @@ import Loading from '../loading/Loading'
 import { useUser } from '@clerk/clerk-react'
 import { toast, ToastContainer } from 'react-toastify'
 import YouTube from 'react-youtube'
+import { useDispatch } from 'react-redux'
+import { addCourse } from '../../../reduxToolKit/EnrollmenrsArrSlice'
 
 const DetailsRightPart = ({theCourse,play,vId}) => {
 
     let {user}=useUser();
-    
+    let dispatch=useDispatch();
     let {currency,courseTime,lectureNum}=useContext(systemContext);
 
 
@@ -29,6 +31,7 @@ const DetailsRightPart = ({theCourse,play,vId}) => {
         }
         else {
             toast.success('Course Enrolled');
+            dispatch(addCourse(theCourse))
         }
     }
 

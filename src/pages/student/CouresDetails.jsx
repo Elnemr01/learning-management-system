@@ -5,6 +5,7 @@ import { assets, dummyCourses } from '../../assets/assets';
 import Loading from '../../components/student/loading/Loading';
 import Chapter from '../../components/student/chapters/Chapter';
 import DetailsRightPart from '../../components/student/detailsRightPart/DetailsRightPart';
+import { useDispatch } from 'react-redux';
 
 
 
@@ -16,6 +17,7 @@ const CouresDetails = () => {
     let [videoPlay,setPlay]=useState(false);
     let [videoId,setVideoId]=useState(null);
     let {id} =useParams();
+    // let dispatch=useDispatch();
 
 
     useEffect(()=> {
