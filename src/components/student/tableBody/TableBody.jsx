@@ -8,7 +8,7 @@ const TableBody = () => {
     return (
         <tbody className='tableBody'>
             {
-                myCourses.length !==0 
+                myCourses.length !==0
                 ? myCourses.map((c, i) => <EnrolledCourse course={c} key={i} />)
                 : <tr><td colSpan="4" className="empty-msg">No courses enrolled yet.</td></tr>
             }
