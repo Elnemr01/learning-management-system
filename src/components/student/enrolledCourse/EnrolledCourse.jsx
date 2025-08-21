@@ -1,5 +1,5 @@
 import React from 'react'
-import './EnrolledCourse.css'
+import './enrolledCourse.css'
 
 const EnrolledCourse = ({ course }) => {
     return (
